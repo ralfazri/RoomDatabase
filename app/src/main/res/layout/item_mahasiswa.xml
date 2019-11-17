@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="30dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="19dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/namaMahasiswa_item"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_height="wrap_content"
+                android:text="Nama mahasiswa"/>
+
+            <TextView
+                android:id="@+id/nimMahasiswa_item"
+                android:layout_width="match_parent"
+                android:textSize="12dp"
+                android:textStyle="italic"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_height="wrap_content"
+                android:text="Nim mahasiswa"/>
+
+            <TextView
+                android:id="@+id/alamatMahasiswa_item"
+                android:layout_width="match_parent"
+                android:layout_marginTop="7dp"
+                android:focusable="false"
+                android:clickable="false"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                android:text="Alamat"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
